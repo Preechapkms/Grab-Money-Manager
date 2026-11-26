@@ -1,0 +1,17 @@
+
+name: Build Grab Money Manager APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build APK
+        run: |
+          echo "โปรเจกต์ Android ยังไม่ถูกเพิ่ม"
+          echo "ต้องเพิ่มไฟล์แอปก่อนจึงจะสร้าง APK ได้"
